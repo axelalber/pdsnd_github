@@ -5,7 +5,7 @@
 
 
 ### Description
-Shows bikeshare data from Chicago, New York City, and Washington. 
+Shows bikeshare data from Chicago, New York City, and Washington. The user decides how to filter the data on city, month, and weekday.
 
 ### Files used
 * chicago.csv
