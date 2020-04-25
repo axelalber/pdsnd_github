@@ -185,15 +185,15 @@ def user_stats(df):
 
 def raw_data(df):
     """Displays 5 rows of raw data on user request."""
-    
+
     current = 0
     end = 5
     while True:
         if current == 0:
-            i = input('Do you want to see 5 rows of raw data? Enter yes or no.\n').lower()
+            i = input('Do you want to see 5 rows of raw data? Enter yes or no.\n')
         else:
-            i = input('Do you want to see 5 more rows? Enter yes or no.\n').lower()
-        if i != 'yes':
+            i = input('Do you want to see 5 more rows? Enter yes or no.\n')
+        if i.lower() != 'yes':
             break
         else:
             print(df.iloc[current:end])
