@@ -182,7 +182,10 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
     
+
 def raw_data(df):
+    """Displays 5 rows of raw data on user request."""
+    
     current = 0
     end = 5
     while True:
